@@ -1,58 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title> Google advanced search</title>
     <style>
         div{ margin: 10px;
         margin-left: 40px;
         font-family: sans-serif;}
 
-        h1 { font-family: sans-serif; color: blue;}
+        h1 { font-family:'Roboto' ,sans-serif; color: blue;}
 
-        #first_box { margin-top: 20px;}
+        .first_box { margin-top: 20px; margin-right: 30px}
 
         .words { width: 400px; height: 30px; align: center;}
+
+        .container{ background-color: cream; margin-right: 500px;}
+        .col{font-size: 15px;}
+
+
+
+
+
+
     </style>
 </head>
-<body>
+<body style="--logo-color:rgba(238,238,238,1); background: rgb(255,255,255)">
 <h1> Google </h1>
 <div style="margin-top: 50px; color: red; font-size: 30px">
     Advanced search
 </div>
 
-<!--<image src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ficatcare.org%2Fadvice%2Fthinking-of-getting-a-cat%2F&psig=AOvVaw19VvxuY_zJ8VctBPFT5JmE&ust=1595420387158000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCAnZ2q3uoCFQAAAAAdAAAAABAE"> </image>-->
-<form>
-    <div id="first_box">
-        All these words:
-        <input name="advanced search" type="text"  class="words">
-        <input type="submit">
-    </div>
-    <div>
-        Exact word or phrase:
-        <input name="advanced search" type="text"  class="words">
-        <input type="submit">
-    </div>
-    <div >
-        Any of these words:
-        <input name="advanced search" type="text"  class="words">
-        <input type="submit">
-    </div>
-    <div>
-        None of these words:
-        <input name="advanced search" type="text"  class="words">
-        <input type="submit">
-    </div>
-    <div>
-        Numbers ranging from:
-        <input name="advanced search" type="number" style=" height: 30px">
-        to
-        <input type="number" style="height: 30px;">
-        <input type="submit">
-    </div>
 
+
+
+<form action="https://google.com/search" >
+
+    <div class="container">
+  <div class="row">
+  </div>
+  <div class="row">
+    <div class="col">
+      All of these:
+    </div>
+    <div class="col">
+      <input type="text" name="q"  class="words">
+    </div>
+    <div class="col">
+      Type the important words: tri-colour rat terrier
+    </div>
+  </div>
+</div>
+
+     <div class="container">
+  <div class="row">
+  </div>
+  <div class="row">
+    <div class="col">
+      Exact word or phrase:
+    </div>
+    <div class="col">
+      <input type="text" name="q"  class="words">
+    </div>
+    <div class="col">
+      Put exact words in quotes: "rat terrier"
+    </div>
+  </div>
+</div>
+
+     <div class="container">
+  <div class="row">
+  </div>
+  <div class="row">
+    <div class="col">
+      Any of these words:
+    </div>
+    <div class="col">
+      <input type="text" name="q"  class="words">
+    </div>
+    <div class="col">
+      Type OR between all the words you want: miniature OR standard
+    </div>
+  </div>
+</div>
+
+     <div class="container">
+  <div class="row">
+  </div>
+  <div class="row">
+    <div class="col">
+      None of these:
+    </div>
+    <div class="col">
+      <input type="text" name="q"  class="words">
+    </div>
+    <div class="col">
+      Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+    <div>
+        <input style="margin-left: 1000px; background-color: royalblue; color: white" type="submit" value="Avanced search">
+    </div>
 
 </form>
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--&lt;!&ndash;    <div id="first_box">&ndash;&gt;-->
+<!--        All these words:-->
+<!--        <input type="text" name="q"  class="words">-->
+<!--&lt;!&ndash;        <input type="submit" value="Advanced Search">&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+<!--    <div>-->
+<!--        Exact word or phrase:-->
+<!--        <input type="text"  name="q" class="words">-->
+<!--&lt;!&ndash;       <input type="submit" value="Advanced Search">&ndash;&gt;-->
+<!--    </div>-->
+<!--    <div >-->
+<!--        Any of these words:-->
+<!--        <input type="text" name="q"  class="words">-->
+<!--&lt;!&ndash;        <input type="submit" value="Advanced Search">&ndash;&gt;-->
+<!--    </div>-->
+<!--    <div>-->
+<!--        None of these words:-->
+<!--        <input type="text"  name="q" class="words">-->
+<!--&lt;!&ndash;        <input type="submit" value="Advanced Search">&ndash;&gt;-->
+<!--    </div>-->
+
+
+
+
+
