@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--    <meta charset="UTF-8">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Google search  </title>
     <style>
         .searchbox{
@@ -29,14 +29,16 @@
          #bartable{
             margin-top: 350px; width: 950px;}
 
-
          div{ margin-left: 575px; margin-top: -35px;}
+         .G_buttons{ font-color: grey; height: 30px;}
+         { }
 
 
 
 </style>
 </head>
 <body>
+
 <form action="https://google.com/search">
 <!--     <div class="col">-->
 <!--      <input  type="text" name="q" class="searchbox"  placeholder="Search Google or type a URL" style="margin-top:350ox">-->
@@ -45,21 +47,30 @@
     <tbody>
     <tr>
         <td>
-            <input  type="text" name="q" class="searchbox"  placeholder="Search Google or type a URL">
+            <input type="text"  name="q" class="searchbox" placeholder="Search Google or type a URL">
+                <img src="file:///Users/sakshi/programming/CS50_web_programming/lecture_0/search_icon.png" alt="search icon" width="2%" height="2%"> </img>
+
         </td>
     </tr>
     </tbody>
+
 </table>
+
+<div>
+    <input class="G_buttons" style=" margin-left:85px; margin-top: 60px" type="submit" value="Google Search">
+<!--</div>-->
+<!--<div>-->
+    <input class="G_buttons" style=" margin-left:30px; margin-top: 0px;" type="submit" value="I'm Feeling Lucky">
+</div>
 </form>
-<div>
-    <img src="file:///Users/sakshi/programming/CS50_web_programming/lecture_0/search_icon.png" alt="search icon" width="2%" height="2%"> </img>
+
+<div class="g_img">
+    <img src="file:///Users/sakshi/programming/CS50_web_programming/lecture_0/search_icon.png" alt="search icon" width="2%" height="2%" style="position: relative; left: -25px;bottom: 75px;border:transparent;"> </img>
 </div>
-<div>
-     <img src="file:///Users/sakshi/programming/CS50_web_programming/lecture_0/google_logo.png" name="logo" alt="Google" width="320px" style="margin-left:83px; margin-top:-200px;"><img>
+<div class="g_img">
+<img src="file:///Users/sakshi/programming/CS50_web_programming/lecture_0/google_logo.png" name="logo" alt="Google" width="320px" style="position: relative; bottom:250px; left: 70px;border: transparent;"><img>
 </div>
-<div>
-    <input type="submit" value="">
-</div>
+
 </body>
 </html>
 
